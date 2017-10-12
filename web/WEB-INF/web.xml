@@ -1,0 +1,11 @@
+<web-app>
+    <!--mapeo del servlet login-->
+    <servlet>
+        <servlet-name>ServletLog</servlet-name>
+        <servlet-class>servletHTML.ServletLog</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletLog</servlet-name>
+        <url-pattern>/ServletLog</url-pattern>
+    </servlet-mapping>
+</web-app>
