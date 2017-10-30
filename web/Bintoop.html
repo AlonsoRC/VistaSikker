@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>* {
+            padding: 0;
+            margin: 0;
+            }
+            p {
+            margin-bottom: 20px;
+            }
+            .wrapper {
+            width: 100%;
+            margin: auto;
+            overflow:hidden;
+            }
+            header {
+            background: rgba(255,255,255,255);
+            width: 100%;
+            position: fixed;
+            z-index: 10;
+            }
+
+            nav {
+            float: left; /* Desplazamos el nav hacia la izquierda */
+            }
+            nav ul {
+            list-style: none;
+            overflow: hidden; /* Limpiamos errores de float */
+            }
+            nav ul li {
+            float: left;
+            font-family: Montserrat;
+            font-weight: Medium;
+            font-size: 24px;
+            }
+            nav ul li a {
+            display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+            padding: 60px;
+            height: 25px;
+            color: #000008;
+            text-decoration: none;
+            }
+            nav ul li:hover {
+            background: rgba(63, 191, 191, 0.17);
+            }
+            .contenido {
+            padding-top: 80px;
+            }
+            #logo {
+            background-image: url('Logo.png');
+            width: 300px;
+            height: 100px;
+            }
+         
+ 
+ </style>   
+    </head>
+    <body style=" background-image: url('AcercaDeDeDe.png')">
+        <header>
+  <section class="wrapper">
+         <nav>
+	    <ul>
+                <li><div id="logo"></div></li>
+		<li><a href="index.html">Inicio</a></li>
+                <li><a href="Inicio.html">Sing up</a></li>
+		<li><a href="AcercaDe.html">Acerca De</a></li>
+		<li><a href="Bintoop.html">Bintoop</a></li>		
+	    </ul>
+        </nav>
+    </section>
+            </header>
+       
+    </body>
+</html>
